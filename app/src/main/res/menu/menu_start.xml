@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_delay"
+        android:title="Delay"
+        app:showAsAction="ifRoom" />
+
+    <!-- Help -->
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <!-- Check updates -->
+    <item android:id="@+id/action_delete"
+        android:title="Delete clinic"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_stop"
+        android:title="Stop Service"
+        app:showAsAction="never" />
+
+
+</menu>

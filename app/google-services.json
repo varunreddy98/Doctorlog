@@ -1,0 +1,63 @@
+{
+"project_info": {
+"project_number": "720142389475",
+"firebase_url": "https://doctorlog-ac4d6.firebaseio.com",
+"project_id": "doctorlog-ac4d6",
+"storage_bucket": "doctorlog-ac4d6.appspot.com"
+},
+"client": [
+{
+"client_info": {
+"mobilesdk_app_id": "1:720142389475:android:920875d8334fb1c3",
+"android_client_info": {
+"package_name": "com.example.varunsai.doctorlog"
+}
+},
+"oauth_client": [
+{
+"client_id": "720142389475-gg683cbvbo4vd48jrtncmdpj755lvqdl.apps.googleusercontent.com",
+"client_type": 1,
+"android_info": {
+"package_name": "com.example.varunsai.doctorlog",
+"certificate_hash": "162cee579571bce37ac9537cb4d07ac74b12fe87"
+}
+},
+{
+"client_id": "720142389475-h23v726vs2dsiq7o716a4o48qoavcab9.apps.googleusercontent.com",
+"client_type": 1,
+"android_info": {
+"package_name": "com.example.varunsai.doctorlog",
+"certificate_hash": "bdfd2ace0c703e79b7afd1c21907e585f55a06ab"
+}
+},
+{
+"client_id": "720142389475-s0daqkiof50u9oepbljf0ta0q0ujuq5g.apps.googleusercontent.com",
+"client_type": 3
+}
+],
+"api_key": [
+{
+"current_key": "AIzaSyC82tzKIr2pgwN1B2cqchLbotK3_Dt6u6E"
+}
+],
+"services": {
+"analytics_service": {
+"status": 1
+},
+"appinvite_service": {
+"status": 2,
+"other_platform_oauth_client": [
+{
+"client_id": "720142389475-s0daqkiof50u9oepbljf0ta0q0ujuq5g.apps.googleusercontent.com",
+"client_type": 3
+}
+]
+},
+"ads_service": {
+"status": 2
+}
+}
+}
+],
+"configuration_version": "1"
+}

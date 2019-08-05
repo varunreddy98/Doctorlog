@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".start1"
+    tools:showIn="@layout/activity_start1">
+      <LinearLayout android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          android:orientation="vertical">
+            <TextView
+                android:id="@+id/text_view2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#101010"
+                android:fontFamily="@font/dancing_script_bold"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:layout_marginTop="7dp"/>
+          <View
+              android:layout_marginTop="8dp"
+              android:layout_width="match_parent"
+
+              android:layout_height="1dp"
+
+              android:background="@color/grey" />
+            <TextView
+                android:id="@+id/text_view3"
+                android:textStyle="normal"
+                android:textColor="#101010"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancing_script_bold"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"/>
+          <View
+              android:layout_marginTop="8dp"
+              android:layout_width="match_parent"
+
+              android:layout_height="1dp"
+
+              android:background="@color/grey"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="Contact:"
+              android:fontFamily="@font/dancing_script_bold"
+              android:textSize="30sp"
+              android:layout_marginTop="5dp"
+              android:textColor="#1678f0"/>
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+            <TextView
+                android:id="@+id/text_view4"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:fontFamily="@font/dancing_script_bold"
+                android:textColor="#101010"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:id="@+id/text_view5"
+                android:layout_width="match_parent"
+                android:text="bbb"
+                android:textColor="#12e4f7"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:fontFamily="@font/dancing_script_bold"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"/>
+          <View
+              android:layout_marginTop="8dp"
+              android:layout_width="match_parent"
+
+              android:layout_height="1dp"
+
+              android:background="@color/grey" />
+          
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/start"
+                android:layout_marginLeft="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/holo_green_light"
+                android:text="START" />
+      </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+

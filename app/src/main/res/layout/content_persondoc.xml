@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".persondoc"
+    tools:showIn="@layout/activity_persondoc">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/dancing_script_bold"
+        android:textColor="#101010"
+        android:textSize="15sp" />
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+
+        android:background="@color/grey" />
+
+    <TextView
+        android:id="@+id/email1"
+        android:fontFamily="@font/dancing_script_bold"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#101010"
+        android:textSize="15sp" />
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+
+        android:background="@color/grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:fontFamily="@font/dancing_script_bold"
+        android:textSize="15sp"
+        android:textColor="#101010"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/spec1"/>
+
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+
+        android:background="@color/grey" />
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="@font/dancing_script_bold"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:textColor="#101010"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/degree1"/>
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+
+        android:background="@color/grey" />
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="@font/dancing_script_bold"
+        android:layout_height="20dp"
+        android:textSize="15sp"
+        android:textColor="#101010"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/exp1"/>
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+
+        android:background="@color/grey" />
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="@font/dancing_script_bold"
+        android:layout_height="80dp"
+        android:textSize="15sp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/address1"/>
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+
+        android:background="@color/grey" />
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="@font/dancing_script_bold"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:textColor="#101010"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/phn1"/>
+
+</LinearLayout>
